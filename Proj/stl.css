@@ -1,0 +1,14 @@
+.Img{
+    background-image: url("FrmImg.jpg");
+    background-repeat: no-repeat;
+}
+.h1{
+    font-size:xx-large;
+}
+.lst{
+    list-style-type: upper-roman;
+    background: #f1b6b6;
+  }
+  .para{
+    background: #f5aaaa;
+  }

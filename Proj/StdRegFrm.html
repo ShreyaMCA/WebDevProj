@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="Img">
+    <form>
+      <h3 class="Clr">STUDENT REGISTRATION FORM</h3>
+      <table class="Stl">
+        <tr>
+          <td><label for="txt_fstname">FIRST NAME</label></td>
+          <td>
+            <input
+              type="text"
+              id="txt_fstname"
+              maxlength="30"
+              minlength="3"
+              required
+            />(max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_lstname">LAST NAME</label></td>
+          <td>
+            <input
+              type="text"
+              id="txt_lstname"
+              maxlength="30"
+              minlength="3"
+            />(max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">DATE OF BIRTH</label></td>
+          <td>
+            <select name="" id="Sel_day">
+              <option value="Day">Day:</option>
+              <option value="Sunday">Sunday</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+            </select>
+            <select name="" id="Sel_mth">
+              <option value="Mnt">Month:</option>
+              <option value="Jan">January</option>
+              <option value="Feb">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="Aug">August</option>
+              <option value="Sep">September</option>
+              <option value="Oct">October</option>
+              <option value="Nov">November</option>
+              <option value="Dec">December</option>
+            </select>
+            <select name="" id="Sel_Year">
+              <option value="Yr">Year:</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_eml">EMAIL ID</label></td>
+          <td>
+            <input type="email" id="txt_eml" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_mbl">MOBILE NUMBER</label></td>
+          <td>
+            <input type="text" id="txt_mbl" maxlength="10" minlength="0" />(10
+            digit number)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="usrGndr">GENDER</label></td>
+          <td>
+            <label for="rdo_mle">Male</label>
+            <input type="radio" name="usrGndr" id="rdo_mle" />
+            <label for="rdo_fmle">Female</label>
+            <input type="radio" name="usrGndr" id="rdo_fmle" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtArea_adr">ADDRESS</label></td>
+          <td>
+            <textarea id="txtArea_adr" rows="5" cols="40" wrap="hard">Enter your address.</textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_cty">CITY</label></td>
+          <td>
+            <input type="text" id="txt_cty" maxlength="30" minlength="5" />(max
+            30 characters a-z and A-Z)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_pnCde">PIN CODE</label></td>
+          <td>
+            <input type="text" id="txt_pnCde" maxlength="6" minlength="2" />(6
+            digit number)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_state">STATE</label></td>
+          <td>
+            <input
+              type="text"
+              id="txt_state"
+              maxlength="30"
+              minlength="5"
+            />(max 30 characters a-z and A-Z)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txt_ctry">COUNTRY</label></td>
+          <td>
+            <input type="text" id="txt_ctry" placeholder="India" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="usrHbs">HOBBIES</label></td>
+          <td>
+            <label for="chk_Hbs">Drawing</label>
+            <input type="checkbox" name="" id="chk_Drw" />
+            <label for="chk_Hbs">Singing</label>
+            <input type="checkbox" name="" id="chk_Sng" />
+            <label for="chk_Hbs">Dancing</label>
+            <input type="checkbox" name="" id="chk_Dns" />
+            <label for="chk_Hbs">Sketching</label>
+            <input type="checkbox" name="" id="chk_Skt" />
+            <label for="chk_Hbs">Others</label>
+            <input type="checkbox" name="" id="chk_Othr" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tbl_qual">QUALIFICATION</label></td>
+          <td>
+            <table>
+              <tr>
+                <th>S.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>ClassX</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>ClassXII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+              </tr>
+            </table>
+          </tr>
+          </td>
+        <tr>
+          <td><label for="rdio_crs">COURSES APPLIED FOR</label></td>
+          <td>
+            <label for="rdio_bca">BCA</label>
+            <input type="radio" name="rdio_crs" id="rdio_bca" />
+            <label for="rdio_bcm">B.Com</label>
+            <input type="radio" name="rdio_crs" id="rdio_bcm" />
+            <label for="rdio_bsc">B.Sc</label>
+            <input type="radio" name="rdio_crs" id="rdio_bsc" />
+            <label for="rdio_ba">B.A</label>
+            <input type="radio" name="rdio_crs" id="rdio_ba" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Submit" class="Btn">
+            <input type="reset" value="Reset" class="Btn1">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

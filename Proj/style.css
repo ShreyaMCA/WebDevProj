@@ -1,0 +1,25 @@
+.Clr{
+    color: rgba(128, 0, 128, 0.965);
+    text-decoration: underline;
+}
+.Stl{
+    background-color: rgb(178, 103, 244);
+    color: white;
+}
+.Btn,.Btn1{
+    font-size: 16px;
+    width: 38%;
+    margin: 4px 2px;
+}
+.Btn:hover {
+    background-color:rgb(133, 8, 243); 
+    color: white;
+  }  
+.Btn1:hover {
+    background-color: rgb(133, 8, 243);
+    color: white;
+  }  
+.Img{
+    background-image: url("FrmImg.jpg");
+    background-repeat: no-repeat;
+}
